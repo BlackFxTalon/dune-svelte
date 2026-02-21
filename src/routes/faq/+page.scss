@@ -1,4 +1,87 @@
-.page {
-  display: grid;
-  gap: 1rem;
+@use '../../styles/mixins';
+@use '../../styles/variables' as *;
+
+.faq-page__meta {
+	color: $color-text-secondary;
+}
+
+.faq-search {
+	display: grid;
+	gap: $spacing-sm;
+	margin-bottom: $spacing-lg;
+}
+
+.faq-list {
+	display: grid;
+	gap: $spacing-sm;
+}
+
+.faq-empty {
+	display: grid;
+	gap: $spacing-sm;
+	justify-items: start;
+}
+
+.faq-empty h2,
+.faq-empty p {
+	margin: 0;
+}
+
+.faq-empty p {
+	color: $color-text-secondary;
+}
+
+.faq-item {
+	border: 1px solid rgba(244, 207, 139, 0.22);
+	border-radius: $radius-lg;
+	background: linear-gradient(166deg, rgba(47, 32, 8, 0.95), rgba(17, 12, 4, 0.96));
+	box-shadow: $shadow-card;
+	overflow: hidden;
+}
+
+.faq-item h2 {
+	margin: 0;
+}
+
+.faq-item__trigger {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: $spacing-sm;
+	width: 100%;
+	padding: $spacing-md $spacing-lg;
+	border: 0;
+	color: $color-text-primary;
+	font-size: $font-size-md;
+	font-weight: 600;
+	text-align: left;
+	cursor: pointer;
+}
+
+.faq-item__trigger:hover {
+	background: rgba(244, 207, 139, 0.08);
+}
+
+.faq-item__trigger:focus-visible {
+	@include mixins.focus-ring;
+}
+
+.faq-item__panel {
+	display: grid;
+	gap: $spacing-xs;
+	padding: 0 $spacing-lg $spacing-md;
+}
+
+.faq-item__panel p,
+.faq-item__panel small {
+	margin: 0;
+}
+
+.faq-item__panel p {
+	color: $color-text-secondary;
+}
+
+.faq-item__panel small {
+	color: $color-primary-light;
+	text-transform: capitalize;
 }

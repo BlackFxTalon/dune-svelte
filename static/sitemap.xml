@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>http://localhost:5173/</loc>
+		<loc>https://dune-imperium-fansite.example/</loc>
+	</url>
+	<url>
+		<loc>https://dune-imperium-fansite.example/cards</loc>
+	</url>
+	<url>
+		<loc>https://dune-imperium-fansite.example/leaders</loc>
+	</url>
+	<url>
+		<loc>https://dune-imperium-fansite.example/sets</loc>
+	</url>
+	<url>
+		<loc>https://dune-imperium-fansite.example/rating</loc>
+	</url>
+	<url>
+		<loc>https://dune-imperium-fansite.example/factions</loc>
+	</url>
+	<url>
+		<loc>https://dune-imperium-fansite.example/faq</loc>
+	</url>
+	<url>
+		<loc>https://dune-imperium-fansite.example/news</loc>
+	</url>
+	<url>
+		<loc>https://dune-imperium-fansite.example/news/uprising-meta-week-6</loc>
+	</url>
+	<url>
+		<loc>https://dune-imperium-fansite.example/news/bloodlines-first-look</loc>
+	</url>
+	<url>
+		<loc>https://dune-imperium-fansite.example/news/faction-tiers-february</loc>
+	</url>
+	<url>
+		<loc>https://dune-imperium-fansite.example/news/top-10-opening-buys</loc>
+	</url>
+	<url>
+		<loc>https://dune-imperium-fansite.example/news/beginner-mistakes</loc>
+	</url>
+	<url>
+		<loc>https://dune-imperium-fansite.example/news/community-cup-announcement</loc>
 	</url>
 </urlset>

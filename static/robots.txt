@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: /sitemap.xml
+Host: https://dune-imperium-fansite.example
+Sitemap: https://dune-imperium-fansite.example/sitemap.xml

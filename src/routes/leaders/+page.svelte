@@ -9,6 +9,9 @@
 	import type { FactionId } from '$lib/types/faction';
 	import type { LeaderComplexity } from '$lib/types/leader';
 	import type { SetId } from '$lib/types/set';
+	import { useScrollReveal } from '$lib/utils';
+
+	import { page } from '$app/state';
 
 	const groupByOptions: { value: LeadersGroupBy; label: string }[] = [
 		{ value: 'none', label: 'Flat grid' },
@@ -124,10 +127,17 @@
 		name="description"
 		content="Browse Dune Imperium leaders with faction filters and grouped faction views."
 	/>
+	<meta property="og:title" content="Leaders | Dune Imperium" />
+	<meta
+		property="og:description"
+		content="Leader roster with faction filtering and grouped strategic overviews."
+	/>
+	<meta property="og:url" content={page.url.href} />
+	<link rel="canonical" href={page.url.href} />
 </svelte:head>
 
 <main class="page-main leaders-page">
-	<section class="container section">
+	<section class="container section u-reveal" use:useScrollReveal>
 		<div class="section-title">
 			<p class="eyebrow">Leader Roster</p>
 			<h1>Leaders</h1>

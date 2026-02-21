@@ -1,4 +1,94 @@
-.page {
-  display: grid;
-  gap: 1rem;
+@use '../../styles/mixins';
+@use '../../styles/variables' as *;
+
+.factions-page__meta {
+	color: $color-text-secondary;
+}
+
+.factions-filters {
+	display: grid;
+	gap: $spacing-sm;
+	margin-bottom: $spacing-lg;
+}
+
+.factions-filters h2 {
+	margin: 0;
+	font-size: $font-size-md;
+}
+
+.factions-filters__tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: $spacing-sm;
+}
+
+.factions-grid {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr);
+	gap: $spacing-md;
+}
+
+.faction-card {
+	display: grid;
+	gap: $spacing-md;
+	padding: $spacing-lg;
+	border: 1px solid rgba(244, 207, 139, 0.24);
+	border-radius: $radius-lg;
+	background: linear-gradient(168deg, rgba(47, 32, 8, 0.95), rgba(18, 13, 5, 0.96));
+	box-shadow: $shadow-card;
+}
+
+.faction-card__header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: $spacing-sm;
+}
+
+.faction-card__header h2,
+.faction-card__description,
+.faction-card h3,
+.faction-card ul {
+	margin: 0;
+}
+
+.faction-card__meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: $spacing-xs;
+}
+
+.faction-card__description {
+	color: $color-text-secondary;
+}
+
+.faction-card__lists {
+	display: grid;
+	gap: $spacing-sm;
+}
+
+.faction-card h3 {
+	margin-bottom: $spacing-xs;
+	font-size: $font-size-sm;
+	color: $color-primary-light;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.faction-card ul {
+	display: grid;
+	gap: $spacing-xs;
+	padding-left: 1.1rem;
+	color: $color-text-secondary;
+}
+
+.faction-card__strategy {
+	padding-top: $spacing-sm;
+	border-top: 1px solid rgba(244, 207, 139, 0.18);
+}
+
+@include mixins.from('lg') {
+	.factions-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
 }

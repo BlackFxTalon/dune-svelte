@@ -16,6 +16,7 @@
 	} from '$lib/types/card';
 	import type { FactionId } from '$lib/types/faction';
 	import type { SetId } from '$lib/types/set';
+	import { useScrollReveal } from '$lib/utils';
 
 	import { resolve } from '$app/paths';
 	import { page } from '$app/state';
@@ -210,10 +211,17 @@
 		name="description"
 		content="Catalog of Dune Imperium cards with filtering by sets, factions and card properties."
 	/>
+	<meta property="og:title" content="Cards Catalog | Dune Imperium" />
+	<meta
+		property="og:description"
+		content="Filter Dune Imperium cards by sets, factions, properties and sorting."
+	/>
+	<meta property="og:url" content={page.url.href} />
+	<link rel="canonical" href={page.url.href} />
 </svelte:head>
 
 <main class="page-main cards-page">
-	<section class="container section">
+	<section class="container section u-reveal" use:useScrollReveal>
 		<div class="section-title">
 			<p class="eyebrow">CardsStore Pipeline</p>
 			<h1>Cards Catalog</h1>

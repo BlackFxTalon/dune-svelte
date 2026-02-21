@@ -2,6 +2,7 @@
 	import { Badge, Button } from '$lib/components';
 	import type { Article } from '$lib/types/article';
 	import type { Card } from '$lib/types/card';
+	import { useScrollReveal } from '$lib/utils';
 
 	import { goto } from '$app/navigation';
 	import { resolve } from '$app/paths';
@@ -87,7 +88,7 @@
 </svelte:head>
 
 <main class="page-main home-page">
-	<section class="home-hero">
+	<section class="home-hero u-reveal" use:useScrollReveal>
 		<div class="container home-hero__inner">
 			<p class="eyebrow">Фан-сайт Dune Imperium</p>
 			<h1>Дюна: Империя</h1>
@@ -120,7 +121,7 @@
 		</div>
 	</section>
 
-	<section class="container section">
+	<section class="container section u-reveal" use:useScrollReveal>
 		<div class="section-title home-heading">
 			<div>
 				<p class="eyebrow">Навигация</p>
@@ -139,7 +140,7 @@
 		</div>
 	</section>
 
-	<section class="container section">
+	<section class="container section u-reveal" use:useScrollReveal>
 		<div class="section-title home-heading">
 			<div>
 				<p class="eyebrow">Новости сообщества</p>
@@ -166,7 +167,7 @@
 		</div>
 	</section>
 
-	<section class="container section">
+	<section class="container section u-reveal" use:useScrollReveal>
 		<div class="section-title home-heading">
 			<div>
 				<p class="eyebrow">Карточный пул</p>
@@ -194,7 +195,7 @@
 		</div>
 	</section>
 
-	<section class="container section">
+	<section class="container section u-reveal" use:useScrollReveal>
 		<article class="about-project">
 			<div class="about-project__body">
 				<p class="eyebrow">О проекте</p>

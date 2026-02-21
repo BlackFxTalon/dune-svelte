@@ -1,4 +1,139 @@
-.page {
-  display: grid;
-  gap: 1rem;
+@use '../../styles/mixins';
+@use '../../styles/variables' as *;
+
+.sets-page__meta {
+	color: $color-text-secondary;
+}
+
+.sets-controls {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: $spacing-sm;
+	margin-bottom: $spacing-lg;
+}
+
+.sets-controls__filters {
+	display: flex;
+	flex-wrap: wrap;
+	gap: $spacing-sm;
+}
+
+.sets-grid {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr);
+	gap: $spacing-md;
+}
+
+.sets-empty {
+	display: grid;
+	gap: $spacing-sm;
+}
+
+.sets-empty h2,
+.sets-empty p {
+	margin: 0;
+}
+
+.sets-empty p {
+	color: $color-text-secondary;
+}
+
+.set-card {
+	display: grid;
+	gap: $spacing-sm;
+	padding: $spacing-lg;
+	border: 1px solid rgba(244, 207, 139, 0.24);
+	border-radius: $radius-lg;
+	background: linear-gradient(166deg, rgba(47, 32, 8, 0.95), rgba(17, 12, 4, 0.96));
+	box-shadow: $shadow-card;
+}
+
+.set-card__header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: $spacing-sm;
+}
+
+.set-card__header h2,
+.set-card__summary {
+	margin: 0;
+}
+
+.set-card__year {
+	margin: 0 0 $spacing-xs;
+	color: $color-primary;
+	font-size: $font-size-xs;
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.set-card__summary {
+	color: $color-text-secondary;
+}
+
+.set-card__meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: $spacing-xs;
+}
+
+.set-card__toggle {
+	justify-self: start;
+	display: inline-flex;
+	align-items: center;
+	padding: 0.2rem $spacing-md;
+	border: 1px solid rgba(244, 207, 139, 0.35);
+	border-radius: $radius-pill;
+	background: rgba(244, 207, 139, 0.08);
+	color: $color-primary-light;
+	font-size: $font-size-sm;
+	font-weight: 600;
+	cursor: pointer;
+	transition:
+		border-color $duration-fast $ease-standard,
+		background-color $duration-fast $ease-standard;
+}
+
+.set-card__toggle:hover {
+	border-color: rgba(244, 207, 139, 0.55);
+	background: rgba(244, 207, 139, 0.18);
+}
+
+.set-card__toggle:focus-visible {
+	@include mixins.focus-ring;
+}
+
+.set-card__details {
+	display: grid;
+	gap: $spacing-xs;
+	padding-top: $spacing-sm;
+	border-top: 1px solid rgba(244, 207, 139, 0.2);
+}
+
+.set-card__details h3,
+.set-card__details ul {
+	margin: 0;
+}
+
+.set-card__details ul {
+	display: grid;
+	gap: $spacing-xs;
+	padding-left: 1.1rem;
+	color: $color-text-secondary;
+}
+
+@include mixins.from('md') {
+	.sets-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+@include mixins.from('xl') {
+	.sets-grid {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
 }
