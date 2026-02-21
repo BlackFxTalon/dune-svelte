@@ -1,1 +1,523 @@
-[]
+[
+    {
+        "id":  1,
+        "slug":  "dune-the-desert-planet",
+        "name":  "Dune, the Desert Planet",
+        "nameEn":  "Dune, the Desert Planet",
+        "cost":  1,
+        "setId":  "imperium",
+        "faction":  null,
+        "cell":  "desert",
+        "properties":  [
+
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Dune",
+        "isOfficial":  true,
+        "text":  "Gain persuasion from desert actions."
+    },
+    {
+        "id":  2,
+        "slug":  "sardaukar-legion",
+        "name":  "Sardaukar Legion",
+        "nameEn":  "Sardaukar Legion",
+        "cost":  5,
+        "setId":  "imperium",
+        "faction":  "emperor",
+        "cell":  "other",
+        "properties":  [
+                           "command"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Sardaukar+Legion",
+        "isOfficial":  true,
+        "text":  "High combat burst with command synergy."
+    },
+    {
+        "id":  3,
+        "slug":  "guild-administrator",
+        "name":  "Guild Administrator",
+        "nameEn":  "Guild Administrator",
+        "cost":  4,
+        "setId":  "imperium",
+        "faction":  "spacing_guild",
+        "cell":  "city",
+        "properties":  [
+                           "choam"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Guild+Administrator",
+        "isOfficial":  true,
+        "text":  "Convert spice into flexible movement tempo."
+    },
+    {
+        "id":  4,
+        "slug":  "benne-gesserit-initiate",
+        "name":  "Bene Gesserit Initiate",
+        "nameEn":  "Bene Gesserit Initiate",
+        "cost":  3,
+        "setId":  "imperium",
+        "faction":  "bene_gesserit",
+        "cell":  "spy",
+        "properties":  [
+                           "graft"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=BG+Initiate",
+        "isOfficial":  true,
+        "text":  "Setup intrigue and card selection."
+    },
+    {
+        "id":  5,
+        "slug":  "fremen-camp",
+        "name":  "Fremen Camp",
+        "nameEn":  "Fremen Camp",
+        "cost":  2,
+        "setId":  "imperium",
+        "faction":  "fremen",
+        "cell":  "desert",
+        "properties":  [
+
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Fremen+Camp",
+        "isOfficial":  true,
+        "text":  "Steady desert value each reveal."
+    },
+    {
+        "id":  6,
+        "slug":  "imperial-spy",
+        "name":  "Imperial Spy",
+        "nameEn":  "Imperial Spy",
+        "cost":  3,
+        "setId":  "rise_of_ix",
+        "faction":  "emperor",
+        "cell":  "spy",
+        "properties":  [
+                           "purchase_bonus"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Imperial+Spy",
+        "isOfficial":  true,
+        "text":  "Discounts the next purchase this turn."
+    },
+    {
+        "id":  7,
+        "slug":  "foldspace-tug",
+        "name":  "Foldspace Tug",
+        "nameEn":  "Foldspace Tug",
+        "cost":  4,
+        "setId":  "rise_of_ix",
+        "faction":  "spacing_guild",
+        "cell":  "city",
+        "properties":  [
+                           "teamwork"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Foldspace+Tug",
+        "isOfficial":  true,
+        "text":  "Boosts movement for teammates in coop mode."
+    },
+    {
+        "id":  8,
+        "slug":  "voice-command",
+        "name":  "Voice Command",
+        "nameEn":  "Voice Command",
+        "cost":  5,
+        "setId":  "rise_of_ix",
+        "faction":  "bene_gesserit",
+        "cell":  "landsraad",
+        "properties":  [
+                           "command"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Voice+Command",
+        "isOfficial":  true,
+        "text":  "Large political swing with influence gain."
+    },
+    {
+        "id":  9,
+        "slug":  "sietch-scout",
+        "name":  "Sietch Scout",
+        "nameEn":  "Sietch Scout",
+        "cost":  2,
+        "setId":  "rise_of_ix",
+        "faction":  "fremen",
+        "cell":  "desert",
+        "properties":  [
+                           "purchase_bonus"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Sietch+Scout",
+        "isOfficial":  true,
+        "text":  "Cheap card that smooths opening buys."
+    },
+    {
+        "id":  10,
+        "slug":  "choam-contract",
+        "name":  "CHOAM Contract",
+        "nameEn":  "CHOAM Contract",
+        "cost":  6,
+        "setId":  "rise_of_ix",
+        "faction":  null,
+        "cell":  "other",
+        "properties":  [
+                           "choam"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=CHOAM+Contract",
+        "isOfficial":  true,
+        "text":  "Big endgame economy scaling option."
+    },
+    {
+        "id":  11,
+        "slug":  "tleilaxu-researcher",
+        "name":  "Tleilaxu Researcher",
+        "nameEn":  "Tleilaxu Researcher",
+        "cost":  3,
+        "setId":  "immortality",
+        "faction":  null,
+        "cell":  "city",
+        "properties":  [
+                           "tleilaxu"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Tleilaxu+Researcher",
+        "isOfficial":  true,
+        "text":  "Unlocks specimen track options."
+    },
+    {
+        "id":  12,
+        "slug":  "genetic-memory",
+        "name":  "Genetic Memory",
+        "nameEn":  "Genetic Memory",
+        "cost":  4,
+        "setId":  "immortality",
+        "faction":  "bene_gesserit",
+        "cell":  "spy",
+        "properties":  [
+                           "graft",
+                           "trash"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Genetic+Memory",
+        "isOfficial":  true,
+        "text":  "Trash weak cards and keep deck lean."
+    },
+    {
+        "id":  13,
+        "slug":  "emperor-tithe",
+        "name":  "Emperor Tithe",
+        "nameEn":  "Emperor Tithe",
+        "cost":  2,
+        "setId":  "immortality",
+        "faction":  "emperor",
+        "cell":  "landsraad",
+        "properties":  [
+                           "purchase_bonus"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Emperor+Tithe",
+        "isOfficial":  true,
+        "text":  "Influence plus tempo at low cost."
+    },
+    {
+        "id":  14,
+        "slug":  "guild-embassy",
+        "name":  "Guild Embassy",
+        "nameEn":  "Guild Embassy",
+        "cost":  5,
+        "setId":  "immortality",
+        "faction":  "spacing_guild",
+        "cell":  "city",
+        "properties":  [
+                           "teamwork",
+                           "choam"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Guild+Embassy",
+        "isOfficial":  true,
+        "text":  "Hybrid economy and support package."
+    },
+    {
+        "id":  15,
+        "slug":  "desert-veteran",
+        "name":  "Desert Veteran",
+        "nameEn":  "Desert Veteran",
+        "cost":  4,
+        "setId":  "immortality",
+        "faction":  "fremen",
+        "cell":  "desert",
+        "properties":  [
+                           "command"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Desert+Veteran",
+        "isOfficial":  true,
+        "text":  "Reliable combat line for conflicts."
+    },
+    {
+        "id":  16,
+        "slug":  "shadow-operator",
+        "name":  "Shadow Operator",
+        "nameEn":  "Shadow Operator",
+        "cost":  3,
+        "setId":  "uprising",
+        "faction":  "bene_gesserit",
+        "cell":  "spy",
+        "properties":  [
+                           "graft"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Shadow+Operator",
+        "isOfficial":  true,
+        "text":  "Enables spy chains and filtered draws."
+    },
+    {
+        "id":  17,
+        "slug":  "imperial-decree",
+        "name":  "Imperial Decree",
+        "nameEn":  "Imperial Decree",
+        "cost":  5,
+        "setId":  "uprising",
+        "faction":  "emperor",
+        "cell":  "landsraad",
+        "properties":  [
+                           "command",
+                           "purchase_bonus"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Imperial+Decree",
+        "isOfficial":  true,
+        "text":  "Strong influence pressure and combat bump."
+    },
+    {
+        "id":  18,
+        "slug":  "spacing-routes",
+        "name":  "Spacing Routes",
+        "nameEn":  "Spacing Routes",
+        "cost":  3,
+        "setId":  "uprising",
+        "faction":  "spacing_guild",
+        "cell":  "city",
+        "properties":  [
+                           "teamwork"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Spacing+Routes",
+        "isOfficial":  true,
+        "text":  "Flexible logistics for agent placement."
+    },
+    {
+        "id":  19,
+        "slug":  "worm-sign",
+        "name":  "Worm Sign",
+        "nameEn":  "Worm Sign",
+        "cost":  6,
+        "setId":  "uprising",
+        "faction":  "fremen",
+        "cell":  "desert",
+        "properties":  [
+                           "command"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Worm+Sign",
+        "isOfficial":  true,
+        "text":  "High ceiling desert finisher."
+    },
+    {
+        "id":  20,
+        "slug":  "quiet-assassin",
+        "name":  "Quiet Assassin",
+        "nameEn":  "Quiet Assassin",
+        "cost":  4,
+        "setId":  "uprising",
+        "faction":  null,
+        "cell":  "spy",
+        "properties":  [
+                           "trash"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Quiet+Assassin",
+        "isOfficial":  true,
+        "text":  "Converts board control into clean deck quality."
+    },
+    {
+        "id":  21,
+        "slug":  "lineage-keeper",
+        "name":  "Lineage Keeper",
+        "nameEn":  "Lineage Keeper",
+        "cost":  2,
+        "setId":  "bloodlines",
+        "faction":  "bene_gesserit",
+        "cell":  "landsraad",
+        "properties":  [
+                           "graft"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Lineage+Keeper",
+        "isOfficial":  true,
+        "text":  "Improves consistency of combo pieces."
+    },
+    {
+        "id":  22,
+        "slug":  "heir-to-corrino",
+        "name":  "Heir to Corrino",
+        "nameEn":  "Heir to Corrino",
+        "cost":  5,
+        "setId":  "bloodlines",
+        "faction":  "emperor",
+        "cell":  "landsraad",
+        "properties":  [
+                           "command"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Heir+to+Corrino",
+        "isOfficial":  true,
+        "text":  "Late game pressure through command tags."
+    },
+    {
+        "id":  23,
+        "slug":  "guild-broker",
+        "name":  "Guild Broker",
+        "nameEn":  "Guild Broker",
+        "cost":  4,
+        "setId":  "bloodlines",
+        "faction":  "spacing_guild",
+        "cell":  "other",
+        "properties":  [
+                           "choam",
+                           "purchase_bonus"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Guild+Broker",
+        "isOfficial":  true,
+        "text":  "Discount plus trade conversion."
+    },
+    {
+        "id":  24,
+        "slug":  "fedaykin-raiders",
+        "name":  "Fedaykin Raiders",
+        "nameEn":  "Fedaykin Raiders",
+        "cost":  5,
+        "setId":  "bloodlines",
+        "faction":  "fremen",
+        "cell":  "desert",
+        "properties":  [
+                           "teamwork",
+                           "command"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Fedaykin+Raiders",
+        "isOfficial":  true,
+        "text":  "Combat pressure scales with allies."
+    },
+    {
+        "id":  25,
+        "slug":  "inheritance-oath",
+        "name":  "Inheritance Oath",
+        "nameEn":  "Inheritance Oath",
+        "cost":  3,
+        "setId":  "bloodlines",
+        "faction":  null,
+        "cell":  "other",
+        "properties":  [
+                           "trash"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Inheritance+Oath",
+        "isOfficial":  true,
+        "text":  "Cycle low-value cards out of deck."
+    },
+    {
+        "id":  26,
+        "slug":  "sietch-mentor",
+        "name":  "Sietch Mentor",
+        "nameEn":  "Sietch Mentor",
+        "cost":  2,
+        "setId":  "fan_sietch",
+        "faction":  "fremen",
+        "cell":  "desert",
+        "properties":  [
+                           "purchase_bonus"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Sietch+Mentor",
+        "isOfficial":  false,
+        "text":  "Fan card focused on fast desert starts."
+    },
+    {
+        "id":  27,
+        "slug":  "dust-tactician",
+        "name":  "Dust Tactician",
+        "nameEn":  "Dust Tactician",
+        "cost":  4,
+        "setId":  "fan_sietch",
+        "faction":  "fremen",
+        "cell":  "desert",
+        "properties":  [
+                           "teamwork"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Dust+Tactician",
+        "isOfficial":  false,
+        "text":  "Pairs well with conflict-heavy tables."
+    },
+    {
+        "id":  28,
+        "slug":  "oracle-of-the-sand",
+        "name":  "Oracle of the Sand",
+        "nameEn":  "Oracle of the Sand",
+        "cost":  5,
+        "setId":  "fan_sietch",
+        "faction":  "bene_gesserit",
+        "cell":  "spy",
+        "properties":  [
+                           "graft",
+                           "command"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Oracle+of+the+Sand",
+        "isOfficial":  false,
+        "text":  "Mixes foresight and tactical pressure."
+    },
+    {
+        "id":  29,
+        "slug":  "sietch-smuggler",
+        "name":  "Sietch Smuggler",
+        "nameEn":  "Sietch Smuggler",
+        "cost":  3,
+        "setId":  "fan_sietch",
+        "faction":  null,
+        "cell":  "other",
+        "properties":  [
+                           "choam"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Sietch+Smuggler",
+        "isOfficial":  false,
+        "text":  "Trade utility in fan desert meta."
+    },
+    {
+        "id":  30,
+        "slug":  "choam-envoy",
+        "name":  "CHOAM Envoy",
+        "nameEn":  "CHOAM Envoy",
+        "cost":  3,
+        "setId":  "fan_choam",
+        "faction":  "spacing_guild",
+        "cell":  "city",
+        "properties":  [
+                           "choam",
+                           "purchase_bonus"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=CHOAM+Envoy",
+        "isOfficial":  false,
+        "text":  "Fan card tuned for market tempo."
+    },
+    {
+        "id":  31,
+        "slug":  "market-arbitrage",
+        "name":  "Market Arbitrage",
+        "nameEn":  "Market Arbitrage",
+        "cost":  5,
+        "setId":  "fan_choam",
+        "faction":  null,
+        "cell":  "other",
+        "properties":  [
+                           "choam",
+                           "trash"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Market+Arbitrage",
+        "isOfficial":  false,
+        "text":  "Turns surplus spice into deck quality."
+    },
+    {
+        "id":  32,
+        "slug":  "consortium-warden",
+        "name":  "Consortium Warden",
+        "nameEn":  "Consortium Warden",
+        "cost":  4,
+        "setId":  "fan_choam",
+        "faction":  "emperor",
+        "cell":  "landsraad",
+        "properties":  [
+                           "teamwork",
+                           "command"
+                       ],
+        "imageUrl":  "https://placehold.co/432x600?text=Consortium+Warden",
+        "isOfficial":  false,
+        "text":  "Control-oriented fan card for politics lines."
+    }
+]

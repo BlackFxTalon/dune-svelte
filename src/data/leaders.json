@@ -1,1 +1,123 @@
-[]
+[
+    {
+        "id":  1,
+        "slug":  "paul-atreides",
+        "name":  "Paul Atreides",
+        "house":  "House Atreides",
+        "faction":  "fremen",
+        "ability":  "Prescience grants early information and card quality.",
+        "complexity":  "medium",
+        "setId":  "imperium",
+        "imageUrl":  "https://placehold.co/480x640?text=Paul+Atreides"
+    },
+    {
+        "id":  2,
+        "slug":  "vladimir-harkonnen",
+        "name":  "Baron Harkonnen",
+        "house":  "House Harkonnen",
+        "faction":  "emperor",
+        "ability":  "Extra intrigue access with pressure on conflict rounds.",
+        "complexity":  "high",
+        "setId":  "imperium",
+        "imageUrl":  "https://placehold.co/480x640?text=Baron+Harkonnen"
+    },
+    {
+        "id":  3,
+        "slug":  "lady-jessica",
+        "name":  "Lady Jessica",
+        "house":  "Atreides",
+        "faction":  "bene_gesserit",
+        "ability":  "Deck sculpting and smooth resource conversion.",
+        "complexity":  "medium",
+        "setId":  "rise_of_ix",
+        "imageUrl":  "https://placehold.co/480x640?text=Lady+Jessica"
+    },
+    {
+        "id":  4,
+        "slug":  "count-ilban-richenese",
+        "name":  "Count Ilban Richese",
+        "house":  "Richese",
+        "faction":  "spacing_guild",
+        "ability":  "Technology discounts and machine economy spikes.",
+        "complexity":  "high",
+        "setId":  "rise_of_ix",
+        "imageUrl":  "https://placehold.co/480x640?text=Count+Ilban"
+    },
+    {
+        "id":  5,
+        "slug":  "princess-irulan",
+        "name":  "Princess Irulan",
+        "house":  "Corrino",
+        "faction":  "emperor",
+        "ability":  "Alliance pressure through diplomacy bursts.",
+        "complexity":  "medium",
+        "setId":  "immortality",
+        "imageUrl":  "https://placehold.co/480x640?text=Princess+Irulan"
+    },
+    {
+        "id":  6,
+        "slug":  "gurney-halleck",
+        "name":  "Gurney Halleck",
+        "house":  "Atreides",
+        "faction":  "fremen",
+        "ability":  "Combat scaling from card sequencing.",
+        "complexity":  "low",
+        "setId":  "imperium",
+        "imageUrl":  "https://placehold.co/480x640?text=Gurney+Halleck"
+    },
+    {
+        "id":  7,
+        "slug":  "thufir-hawat",
+        "name":  "Thufir Hawat",
+        "house":  "Atreides",
+        "faction":  "spacing_guild",
+        "ability":  "Efficient intel conversion into tempo.",
+        "complexity":  "medium",
+        "setId":  "uprising",
+        "imageUrl":  "https://placehold.co/480x640?text=Thufir+Hawat"
+    },
+    {
+        "id":  8,
+        "slug":  "feyd-rautha",
+        "name":  "Feyd-Rautha",
+        "house":  "Harkonnen",
+        "faction":  "emperor",
+        "ability":  "Aggressive conflict finishers.",
+        "complexity":  "low",
+        "setId":  "uprising",
+        "imageUrl":  "https://placehold.co/480x640?text=Feyd+Rautha"
+    },
+    {
+        "id":  9,
+        "slug":  "stilgar",
+        "name":  "Stilgar",
+        "house":  "Fremen",
+        "faction":  "fremen",
+        "ability":  "Worm-rider synergy and desert dominance.",
+        "complexity":  "medium",
+        "setId":  "bloodlines",
+        "imageUrl":  "https://placehold.co/480x640?text=Stilgar"
+    },
+    {
+        "id":  10,
+        "slug":  "mohiam",
+        "name":  "Reverend Mother Mohiam",
+        "house":  "Bene Gesserit",
+        "faction":  "bene_gesserit",
+        "ability":  "Punishes inefficient card buys.",
+        "complexity":  "high",
+        "setId":  "bloodlines",
+        "imageUrl":  "https://placehold.co/480x640?text=Mohiam"
+    },
+    {
+        "id":  11,
+        "slug":  "liaison-helena",
+        "name":  "Liaison Helena",
+        "house":  "CHOAM",
+        "faction":  "spacing_guild",
+        "ability":  "Contract-driven income acceleration.",
+        "complexity":  "medium",
+        "setId":  "fan_choam",
+        "imageUrl":  "https://placehold.co/480x640?text=Helena"
+    }
+]

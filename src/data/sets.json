@@ -1,1 +1,58 @@
-[]
+[
+    {
+        "id":  "imperium",
+        "name":  "Dune: Imperium",
+        "releaseYear":  2020,
+        "official":  true,
+        "cardCount":  67,
+        "description":  "Base game political and economic deck."
+    },
+    {
+        "id":  "rise_of_ix",
+        "name":  "Rise of Ix",
+        "releaseYear":  2021,
+        "official":  true,
+        "cardCount":  59,
+        "description":  "Technology expansion with dreadnought tactics."
+    },
+    {
+        "id":  "immortality",
+        "name":  "Immortality",
+        "releaseYear":  2022,
+        "official":  true,
+        "cardCount":  65,
+        "description":  "Genetic research and Tleilaxu mechanics."
+    },
+    {
+        "id":  "uprising",
+        "name":  "Uprising",
+        "releaseYear":  2023,
+        "official":  true,
+        "cardCount":  70,
+        "description":  "Standalone sequel with spies and worms."
+    },
+    {
+        "id":  "bloodlines",
+        "name":  "Bloodlines",
+        "releaseYear":  2025,
+        "official":  true,
+        "cardCount":  54,
+        "description":  "House lineage modules and command cards."
+    },
+    {
+        "id":  "fan_sietch",
+        "name":  "Sietch Tabr Initiative",
+        "releaseYear":  2024,
+        "official":  false,
+        "cardCount":  36,
+        "description":  "Fan set focused on desert warfare tempo."
+    },
+    {
+        "id":  "fan_choam",
+        "name":  "CHOAM Mercantile Protocol",
+        "releaseYear":  2024,
+        "official":  false,
+        "cardCount":  34,
+        "description":  "Fan set focused on trade and contracts."
+    }
+]

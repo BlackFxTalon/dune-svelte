@@ -1,4 +1,57 @@
-.page {
-  display: grid;
-  gap: 1rem;
+@use '../../styles/mixins';
+@use '../../styles/variables' as *;
+
+.cards-page__meta {
+	color: $color-text-secondary;
+}
+
+.cards-layout {
+	display: grid;
+	gap: $spacing-lg;
+}
+
+.cards-filters {
+	display: grid;
+	gap: $spacing-lg;
+	align-content: start;
+}
+
+.cards-filters h2 {
+	font-size: $font-size-md;
+}
+
+.cards-filters__tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: $spacing-sm;
+}
+
+.cards-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+	gap: $spacing-md;
+	align-content: start;
+}
+
+.cards-grid__meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: $spacing-xs;
+}
+
+.cards-empty {
+	display: grid;
+	gap: $spacing-sm;
+}
+
+@include mixins.from('lg') {
+	.cards-layout {
+		grid-template-columns: minmax(300px, 360px) minmax(0, 1fr);
+		align-items: start;
+	}
+
+	.cards-filters {
+		position: sticky;
+		top: 96px;
+	}
 }

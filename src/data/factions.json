@@ -1,1 +1,58 @@
-[]
+[
+    {
+        "id":  "emperor",
+        "name":  "Emperor",
+        "color":  "#c41e3a",
+        "description":  "Power through influence and taxes.",
+        "strengths":  [
+                          "Influence bursts",
+                          "High reward alliances"
+                      ],
+        "weaknesses":  [
+                           "Predictable economy",
+                           "Slower card draw"
+                       ]
+    },
+    {
+        "id":  "spacing_guild",
+        "name":  "Spacing Guild",
+        "color":  "#4a90d9",
+        "description":  "Mobility and shipping manipulation.",
+        "strengths":  [
+                          "Flexible movement",
+                          "Strong midgame scaling"
+                      ],
+        "weaknesses":  [
+                           "Weak combat spikes",
+                           "Expensive setup"
+                       ]
+    },
+    {
+        "id":  "bene_gesserit",
+        "name":  "Bene Gesserit",
+        "color":  "#7b5ea7",
+        "description":  "Control, intrigue, and precision.",
+        "strengths":  [
+                          "Card filtering",
+                          "Intrigue synergy"
+                      ],
+        "weaknesses":  [
+                           "Fragile openings",
+                           "Requires planning"
+                       ]
+    },
+    {
+        "id":  "fremen",
+        "name":  "Fremen",
+        "color":  "#d4a847",
+        "description":  "Desert efficiency and combat pressure.",
+        "strengths":  [
+                          "Desert tempo",
+                          "Reliable combat value"
+                      ],
+        "weaknesses":  [
+                           "Lower diplomacy",
+                           "Limited draw engines"
+                       ]
+    }
+]

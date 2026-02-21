@@ -1,1 +1,108 @@
-[]
+[
+    {
+        "id":  1,
+        "slug":  "uprising-meta-week-6",
+        "title":  "Uprising meta report: week 6",
+        "excerpt":  "How early spy tempo reshaped conflict priorities.",
+        "content":  "Detailed breakdown of top archetypes and economy lines.",
+        "imageUrl":  "https://placehold.co/1200x630?text=Meta+Week+6",
+        "publishedAt":  "2026-01-15",
+        "author":  "Arrakis Editorial",
+        "tags":  [
+                     "meta",
+                     "uprising",
+                     "analysis"
+                 ],
+        "relatedSlugs":  [
+                             "bloodlines-first-look",
+                             "top-10-opening-buys"
+                         ]
+    },
+    {
+        "id":  2,
+        "slug":  "bloodlines-first-look",
+        "title":  "Bloodlines first look and balance notes",
+        "excerpt":  "Initial impressions from 40+ practice games.",
+        "content":  "Card value shifts, leader parity, and line consistency notes.",
+        "imageUrl":  "https://placehold.co/1200x630?text=Bloodlines",
+        "publishedAt":  "2026-01-28",
+        "author":  "Spice Analysts",
+        "tags":  [
+                     "expansion",
+                     "bloodlines"
+                 ],
+        "relatedSlugs":  [
+                             "uprising-meta-week-6",
+                             "faction-tiers-february"
+                         ]
+    },
+    {
+        "id":  3,
+        "slug":  "faction-tiers-february",
+        "title":  "Faction tiers for February season",
+        "excerpt":  "Current ladder performance by faction identity.",
+        "content":  "Tier list based on 500+ rated matches from community events.",
+        "imageUrl":  "https://placehold.co/1200x630?text=Faction+Tiers",
+        "publishedAt":  "2026-02-03",
+        "author":  "Guild Desk",
+        "tags":  [
+                     "tiers",
+                     "factions"
+                 ],
+        "relatedSlugs":  [
+                             "uprising-meta-week-6"
+                         ]
+    },
+    {
+        "id":  4,
+        "slug":  "top-10-opening-buys",
+        "title":  "Top 10 opening buys in Dune Imperium",
+        "excerpt":  "Reliable openers for stable tempo and influence curves.",
+        "content":  "A practical ranking of opening purchases with matchup context.",
+        "imageUrl":  "https://placehold.co/1200x630?text=Opening+Buys",
+        "publishedAt":  "2026-02-07",
+        "author":  "Training Camp",
+        "tags":  [
+                     "guide",
+                     "cards"
+                 ],
+        "relatedSlugs":  [
+                             "uprising-meta-week-6",
+                             "beginner-mistakes"
+                         ]
+    },
+    {
+        "id":  5,
+        "slug":  "beginner-mistakes",
+        "title":  "Five beginner mistakes that cost influence",
+        "excerpt":  "Common pitfalls and how to avoid them.",
+        "content":  "From overcommitting conflict to weak deck-thinning timing.",
+        "imageUrl":  "https://placehold.co/1200x630?text=Beginner+Mistakes",
+        "publishedAt":  "2026-02-10",
+        "author":  "Community Team",
+        "tags":  [
+                     "guide",
+                     "beginners"
+                 ],
+        "relatedSlugs":  [
+                             "top-10-opening-buys"
+                         ]
+    },
+    {
+        "id":  6,
+        "slug":  "community-cup-announcement",
+        "title":  "Community cup spring qualifier announced",
+        "excerpt":  "Rules, dates, format and registration details.",
+        "content":  "Open qualifier format with Swiss rounds and top-cut bracket.",
+        "imageUrl":  "https://placehold.co/1200x630?text=Community+Cup",
+        "publishedAt":  "2026-02-14",
+        "author":  "Tournament Board",
+        "tags":  [
+                     "events",
+                     "tournament"
+                 ],
+        "relatedSlugs":  [
+                             "faction-tiers-february"
+                         ]
+    }
+]
