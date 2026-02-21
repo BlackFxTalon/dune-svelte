@@ -8,8 +8,15 @@
 		{ href: '/cards', label: 'Cards' },
 		{ href: '/leaders', label: 'Leaders' },
 		{ href: '/sets', label: 'Sets' },
-		{ href: '/rating', label: 'Rating' }
+		{ href: '/rating', label: 'Rating' },
+		{ href: '/factions', label: 'Factions' },
+		{ href: '/faq', label: 'FAQ' },
+		{ href: '/news', label: 'News' }
 	] as const;
+
+	function isActiveLink(href: string): boolean {
+		return page.url.pathname === href || page.url.pathname.startsWith(`${href}/`);
+	}
 </script>
 
 <header class="site-header">
@@ -23,7 +30,8 @@
 			{#each navItems as item (item.href)}
 				<a
 					class="site-header__link"
-					class:is-active={page.url.pathname === item.href}
+					class:is-active={isActiveLink(item.href)}
+					aria-current={isActiveLink(item.href) ? 'page' : undefined}
 					href={resolve(item.href)}
 				>
 					{item.label}

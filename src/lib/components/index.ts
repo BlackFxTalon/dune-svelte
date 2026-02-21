@@ -1,4 +1,5 @@
 export { default as Badge } from './Badge/Badge.svelte';
+export { default as Breadcrumbs } from './Breadcrumbs/Breadcrumbs.svelte';
 export { default as Button } from './Button/Button.svelte';
 export { default as Card } from './Card/Card.svelte';
 export { default as Footer } from './Footer/Footer.svelte';

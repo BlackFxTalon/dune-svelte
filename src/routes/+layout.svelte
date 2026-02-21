@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Footer, Header } from '$lib/components';
+	import { Breadcrumbs, Footer, Header } from '$lib/components';
 
 	import '../styles/global.scss';
 
@@ -18,6 +18,7 @@
 
 <div class="app-shell">
 	<Header />
+	<Breadcrumbs />
 	{@render children()}
 	<Footer />
 </div>
