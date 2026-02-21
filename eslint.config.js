@@ -1,3 +1,4 @@
+import svelteParser from 'svelte-eslint-parser';
 import js from '@eslint/js';
 import simpleImportSort from 'eslint-plugin-simple-import-sort';
 import sveltePlugin from 'eslint-plugin-svelte';
@@ -24,7 +25,10 @@ export default tseslint.config(
 	{
 		files: ['**/*.svelte'],
 		languageOptions: {
+			parser: svelteParser,
 			parserOptions: {
+				parser: tseslint.parser,
+				extraFileExtensions: ['.svelte'],
 				svelteConfig
 			}
 		}

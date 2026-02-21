@@ -1,0 +1,46 @@
+@use './mixins';
+@use './variables' as *;
+
+:root {
+	color-scheme: dark;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: $font-body;
+	font-size: $font-size-base;
+	background:
+		radial-gradient(circle at 12% 10%, rgba(244, 207, 139, 0.16), transparent 32%),
+		radial-gradient(circle at 88% 92%, rgba(123, 94, 167, 0.12), transparent 30%),
+		linear-gradient(160deg, #120b02 0%, #1a1206 55%, #231607 100%);
+	color: $color-text-primary;
+}
+
+a {
+	color: inherit;
+	text-decoration-color: rgba(244, 207, 139, 0.4);
+	text-underline-offset: 0.2rem;
+	transition: color $duration-fast $ease-standard, text-decoration-color $duration-fast $ease-standard;
+
+	&:hover {
+		color: $color-primary;
+		text-decoration-color: $color-primary;
+	}
+}
+
+button,
+input,
+select,
+textarea {
+	background: none;
+	border: 0;
+}
+
+:focus-visible {
+	@include mixins.focus-ring;
+}
+
+::selection {
+	background: rgba(244, 207, 139, 0.25);
+	color: $color-primary-light;
+}

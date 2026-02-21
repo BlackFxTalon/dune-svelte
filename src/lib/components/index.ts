@@ -1,1 +1,9 @@
+export { default as Badge } from './Badge/Badge.svelte';
+export { default as Button } from './Button/Button.svelte';
+export { default as Card } from './Card/Card.svelte';
+export { default as Footer } from './Footer/Footer.svelte';
 export { default as Header } from './Header/Header.svelte';
+export { default as Input } from './Input/Input.svelte';
+export { default as Select } from './Select/Select.svelte';
+export { default as Tabs } from './Tabs/Tabs.svelte';
+export { default as Tag } from './Tag/Tag.svelte';

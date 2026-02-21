@@ -1,0 +1,53 @@
+@use './mixins';
+@use './variables' as *;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $font-heading;
+	font-weight: 600;
+	line-height: 1.1;
+	letter-spacing: 0.03em;
+	color: $color-primary-light;
+}
+
+h1 {
+	font-size: clamp($font-size-xl, 4vw, $font-size-3xl);
+	text-wrap: balance;
+}
+
+h2 {
+	font-size: clamp($font-size-lg, 2.6vw, $font-size-2xl);
+}
+
+h3 {
+	font-size: clamp($font-size-md, 2vw, $font-size-xl);
+}
+
+p,
+li,
+label,
+input,
+select,
+button {
+	font-size: $font-size-base;
+}
+
+small {
+	font-size: $font-size-sm;
+	color: $color-text-secondary;
+}
+
+.eyebrow {
+	display: inline-flex;
+	align-items: center;
+	gap: $spacing-sm;
+	font-size: $font-size-sm;
+	font-weight: 600;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: $color-text-accent;
+}

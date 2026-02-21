@@ -1,23 +1,72 @@
 @use './reset';
-@use './variables';
+@use './base';
+@use './typography';
+@use './animations';
+@use './mixins';
+@use './variables' as *;
 
-:root {
-  color-scheme: dark;
+.container {
+	@include mixins.container;
 }
 
-body {
-  min-height: 100vh;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  background: variables.$color-bg;
-  color: variables.$color-text;
+.section {
+	padding-block: clamp($spacing-xl, 5vw, $spacing-3xl);
 }
 
-a {
-  color: variables.$color-accent;
+.section-title {
+	display: grid;
+	gap: $spacing-sm;
+	margin-bottom: $spacing-lg;
 }
 
-.page {
-  width: min(1100px, 100% - 2rem);
-  margin: 0 auto;
-  padding: 2rem 0;
+.section-grid {
+	display: grid;
+	gap: $spacing-lg;
+	grid-template-columns: 1fr;
+}
+
+@media (min-width: $breakpoint-md) {
+	.section-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+@media (min-width: $breakpoint-xl) {
+	.section-grid {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+}
+
+.surface {
+	@include mixins.panel;
+	padding: $spacing-lg;
+}
+
+.surface-soft {
+	border: 1px solid rgba(244, 207, 139, 0.14);
+	border-radius: $radius-lg;
+	background: rgba(44, 31, 8, 0.55);
+	backdrop-filter: blur(4px);
+	padding: $spacing-lg;
+}
+
+.stack {
+	display: grid;
+	gap: $spacing-md;
+}
+
+.page-main {
+	padding-block: $spacing-xl $spacing-3xl;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
 }

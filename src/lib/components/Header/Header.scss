@@ -1,7 +1,69 @@
+@use '../../../styles/variables' as *;
+
 .site-header {
-  padding: 1rem 0;
+	position: sticky;
+	top: 0;
+	z-index: 20;
+	background: linear-gradient(180deg, rgba(18, 11, 2, 0.95), rgba(18, 11, 2, 0.72));
+	border-bottom: 1px solid rgba(244, 207, 139, 0.18);
+	backdrop-filter: blur(12px);
+}
+
+.site-header__inner {
+	display: flex;
+	flex-wrap: wrap;
+	gap: $spacing-md;
+	align-items: center;
+	justify-content: space-between;
+	padding-block: $spacing-md;
 }
 
 .site-header__brand {
-  text-decoration: none;
+	display: inline-flex;
+	align-items: center;
+	gap: $spacing-sm;
+	font-family: $font-heading;
+	font-size: $font-size-lg;
+	font-weight: 600;
+	letter-spacing: 0.04em;
+	text-decoration: none;
+}
+
+.site-header__brand-mark {
+	display: inline-grid;
+	place-items: center;
+	width: 2rem;
+	height: 2rem;
+	border: 1px solid $color-border;
+	border-radius: 50%;
+	font-size: $font-size-sm;
+	color: $color-primary;
+}
+
+.site-header__nav {
+	display: flex;
+	flex-wrap: wrap;
+	gap: $spacing-sm;
+}
+
+.site-header__link {
+	padding: $spacing-sm $spacing-md;
+	border: 1px solid transparent;
+	border-radius: $radius-pill;
+	font-size: $font-size-sm;
+	font-weight: 600;
+	color: $color-text-secondary;
+	text-decoration: none;
+	transition: all $duration-fast $ease-standard;
+}
+
+.site-header__link:hover {
+	border-color: rgba(244, 207, 139, 0.4);
+	color: $color-primary-light;
+}
+
+.site-header__link.is-active {
+	border-color: rgba(244, 207, 139, 0.5);
+	background: rgba(244, 207, 139, 0.12);
+	color: $color-primary;
 }
